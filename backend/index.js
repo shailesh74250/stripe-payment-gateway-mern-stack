@@ -2,7 +2,7 @@ const cors = require('cors');
 const express = require('express');
 // TODO add a stripe key
 const stripe = require('stripe')(
-  'sk_test_51HEqt8BykVv1F0mftsJNZxkqsA12cgVW68LeI4O0dYH9juS9Qe1wbse2NNcpd9nFT5Pm1vdmZfDX5yBgW73HrsW500ZUhp9dHN'
+  ''
 );
 const { v4: uuidv4 } = require('uuid');
 
