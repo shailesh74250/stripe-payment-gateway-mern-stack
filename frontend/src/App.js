@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="App">
       <StripeCheckout
-        stripeKey="pk_test_51HEqt8BykVv1F0mfBHAA25wCIZlKnMEnhNhwldqpbErkZRLixP2ddN8zb1ApTdcqIEchL5K8NXT72jfWtRUDxul600L5QQNIPZ"
+        stripeKey=""
         token={makePayment}
         name="Buy React"
         amount={product.price * 100}
